@@ -1,0 +1,42 @@
+.DS_Store
+node_modules/
+dist/
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+test/unit/coverage/
+cheerio/
+test??.js
+# Editor directories and files
+.idea
+.vscode
+*.suo
+*.ntvs*
+*.njsproj
+*.sln
+
+.vscode/
+.logs
+
+coverage/
+mochawesome-report/
+
+# 开发环境的配置就不用上传了
+config/config.local.js
+config/config.local-test.js
+
+# 爬虫爬下来的内容就不要上传了
+www/uploadfiles/
+
+# tools/api2swagger.js 生成的 swagger JSON 文件
+www/swagger/jsons
+
+# tools/api2markdown.js 生成的文件
+www/markdown/apis
+www/markdown/_sidebar.md
+www/markdown/history.md
+www/markdown/README.md
+
+www/img/*
+
+.scannerwork

@@ -1,0 +1,16 @@
+{
+  "name": "svg-captcha-recognize",
+  "version": "1.0.0",
+  "description": "特点：\r 1. 识别正确率100%\r 2. 每次识别耗时最高都在1ms以内\r 3. 0依赖",
+  "main": "index.js",
+  "dependencies": {},
+  "devDependencies": {
+    "standard": "^14.3.1",
+    "svg-captcha": "^1.4.0"
+  },
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "",
+  "license": "ISC"
+}
