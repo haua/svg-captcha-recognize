@@ -3,10 +3,19 @@
 特点：
 1. 识别正确率100%
 2. 每次识别耗时最高都在1ms以内
-3. 0依赖
+3. 零依赖
 
 缺点：
 1. 仅支持 svg-captcha 默认的字体，如果用了自定义字体，需要重新生成字典
+2. 目前是针对 svg-captcha 1.4.0 及以下版本做的，不排除他们更新后此方法无法识别
+
+> Even though you can write a program that convert svg to png, svg captcha has done its job
+  —— make captcha recognition harder 
+> 所以SVG验证码可能比的图片普通验证码要更难识别，因为你必须先做SVG到其它格式的转化。
+
+以上引用了svg-captcha文档的一句话，而我并没有把SVG转为其它格式，却做到了更快的验证码识别，并且识别率100%。
+
+svg-captcha: https://www.npmjs.com/package/svg-captcha
 
 ## 用法
 
