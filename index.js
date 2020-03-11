@@ -145,7 +145,7 @@ const lengthMap = {
 
 // 相同长度的两个字母，这里详细分析具体是哪个字母
 const lengthSameMap = {
-  986 : path => utils.getMinXY(path)[1] > 13 ? 'I' : 'l',
+  986: path => utils.getMinXY(path)[1] > 13 ? 'I' : 'l',
   1068: path => utils.getMinXY(path)[1] > 13 ? 'I' : 'l',
   1274: path => utils.getMoveY(path) > 30 ? 'y' : 'L', // L y，根据第一个y值的大小可以区分它俩
   1380: path => utils.getMoveY(path) > 30 ? 'y' : 'L',

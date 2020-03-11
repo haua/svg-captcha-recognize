@@ -7,6 +7,9 @@
 
 ps. 我已经给svg-captcha提了issue了，看他们的重视程度，应该会修复这个问题。
 
+> issue 已经有回复了： https://github.com/produck/svg-captcha/issues/45
+3.0会完全修复
+
 **特点**：
 1. 识别正确率100%
 2. 每次识别耗时最高都在1ms以内
